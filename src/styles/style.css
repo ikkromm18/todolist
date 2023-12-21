@@ -1,4 +1,84 @@
 *{
   margin : 0;
   padding : 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 40px;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  color: white;
+}
+
+header .header__title{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+main .form-input{
+  margin-top: 1rem;
+  background-color: antiquewhite;
+  width: 600px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+main form{
+  display: flex;
+  flex-direction: column;
+}
+main form .to-do{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+main form .to-do #to-do{
+  width: 500px;
+  height: 1.8rem;
+  border-radius: 0.2rem;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 2px solid #f1aeae;
+}
+
+main form .deadline{
+  display: flex;
+  flex-direction: column;
+}
+
+main form .deadline #deadline{
+  width: 500px;
+  height: 1.8rem;
+  border-radius: 0.2rem;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 2px solid #f1aeae;
+}
+
+.btn{
+  padding: 0.4rem 1.5rem;
+  align-self: flex-end;
+  background-color: #ed8989;
+  border: 2px solid #f1aeae;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  background-color: #ef6060;
+  font-weight: bold;
 }
