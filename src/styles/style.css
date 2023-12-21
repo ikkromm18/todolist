@@ -7,11 +7,11 @@
 header{
   height: 40px;
   width: 100%;
-  background-color: cadetblue;
+  background-color: rgb(249, 213, 165);
   display: flex;
   align-items: center;
   padding-left: 1rem;
-  color: white;
+  color: black
 }
 
 header .header__title{
