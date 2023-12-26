@@ -22,6 +22,8 @@ header .header__title{
 main{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 main .form-input{
@@ -81,4 +83,16 @@ main form .deadline #deadline{
 .btn:hover{
   background-color: #ef6060;
   font-weight: bold;
+}
+
+main .container-do{
+  height: auto;
+  width: 600px;
+  background-color: antiquewhite;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+main .container-do h4{
+  font-weight: normal;
 }
